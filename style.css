@@ -1,0 +1,249 @@
+.lgg{
+    width:3.4rem !important;
+    height:4rem !important;  
+}
+
+.pro-img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+}
+.card{
+    width:25rem;
+}
+.crdtitle{
+    font-size: 20px;
+    color:rgb(56, 52, 52);
+}
+
+.mycard{
+    padding: 30px 30px 30px 30px;
+    border-color: #555;
+    border-width: 2px;
+}
+
+
+
+
+.ml5{
+    margin-top:15% !important;
+    justify-content: center !important;
+    margin-left:10% !important;
+    font-size: 80px !important;   
+}
+.nav-item{
+    margin-left:50px !important;
+}
+#heyy{
+    font-size: 35px;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  #note-para{
+      align-content: center;
+      width: 75% !important;
+      font-size: 22px;
+  }
+  .container{
+    width:70%;
+    margin-left: 20%;
+    text-align: left;
+}
+.ab{
+    position: relative;
+    z-index: 100;
+    padding:20px 20px 20px 20px;
+    background-attachment: fixed;
+    background: url(blob.jpg) center center no-repeat;
+    background-size: cover;
+}
+.lg-abt{
+    width:300px;
+    height: 300px;
+    text-align: left;
+    align-content: center
+}
+
+.clog{
+    width:170px;
+    height: 150px;
+}
+.contact-part{
+    margin-top:15px;
+}
+
+
+.ccc{
+    position: relative;
+    z-index: 100;
+    padding:20px 20px 20px 20px;
+    font-weight: 700;
+}
+a{
+    text-decoration: transparent;
+    color:inherit;
+}
+a:focus{
+    text-decoration: transparent;
+    color:inherit;
+}
+a:hover{
+    text-decoration: transparent;
+    color:inherit;
+}
+
+.oo{
+    width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content:center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+p:hover{
+    cursor: default;
+}
+
+h1:hover{
+    cursor:default;
+}
+h3:hover{
+    cursor:default;
+}
+h5:hover{
+    cursor:default;
+}
+
+.card-oh{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* [class*="col-"] {
+        width: 100%;
+    } */
+    .lgg{
+        width:3.4rem !important;
+        height: 4rem !important;
+    }
+    #heyy{
+        font-size: 20px;
+    }
+    .pro-img{
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+        float:left !important;
+        margin-top:20px;
+    }
+
+  
+    .ml5{
+        margin-top:85% !important;
+        justify-content: center !important;
+        color:white !important;
+        margin-left: 20px !important;
+        font-size: 26px !important;
+    }
+    .nav-item{
+        margin-left:0px !important;
+    }
+    .row.justify-content-center{
+        margin-left: 12%
+    }
+    #note{
+        font-size: 22px !important;
+    }
+    .card{
+        width:100%;
+    }
+    #note-para{
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    .container{
+        width:100% !important;
+        margin-left: 0px !important;
+    }
+    .container.ab{
+        width:100% !important;
+        margin-left: 0px !important;
+    }
+    .lg-abt{
+        width:200px !important;
+        height:180px !important;
+    }
+    .oo{
+      padding-left: auto;
+      width: 80% !important;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .row.cm{
+        margin-left:15% !important;
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+@media only screen and (max-height: 700px) {
+    /* For mobile phones: */
+    /* [class*="col-"] {
+        width: 100%;
+    } */
+    .for-bg{
+        height: 100% !important;
+    }
+}
+
+
+
+.card-primary{
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+    background-color: #fff;
+    color: #555;
+    width: 205px;
+    height: 285px;
+    margin: 20px;
+    padding: 20px;
+  
+  }
+  .card-primary:hover {
+    z-index: 1;
+    border: none;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+  }
